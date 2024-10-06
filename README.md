@@ -57,6 +57,37 @@ The following key assumptions were made while implementing the solution:
 These assumptions help simplify the implementation while ensuring the solution works efficiently under the given constraints and requirements.
 
 
+## Usage
+To run the program, follow these steps:
+
+1. **Clone the Repository**:
+   
+   Open your terminal or command prompt and clone the repository using the following command:
+   
+   ```bash
+   git clone https://github.com/Dashuto22/Illumio-take-home-assignment.git
+
+2. **Navigate to the project directory**
+
+   After cloning the repository, navigate to the project directory using the following command:
+
+   ```bash
+   cd Illumio-take-home-assignment
+
+3. **Run the Program**
+
+   Use the following command to run the program, it will execute the program with the provided sample flow log (sample_flow_logs.txt) and lookup table (sample_lookup.csv) files in the same project directory.
+
+   ```bash
+   python main.py
+
+4. **Expected Output**
+
+   The program will process the flow log and lookup table and provide the following outputs:
+
+   Tag Counts: The number of times each tag from the lookup table is used.
+   Untagged Entries: The count of entries from the flow log that do not match any tag in the lookup table.
+
 ## Tests-covered
 To thoroughly test my above solution, I designed test cases that cover a range of scenarios, including typical, edge, and erroneous cases. Below are the test categories with specific test cases to ensure the solution works correctly:
 
