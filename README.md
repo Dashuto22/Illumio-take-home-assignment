@@ -1,9 +1,10 @@
 # Illumio-take-home-assignment
 
-A brief description of the project.
+Please go through the instructions step by step in order to utilize the script and understand its working.
 
 ## Table of Contents
 - [Assumptions](#Assumptions)
+- [Prerequisites](#Prerequisites)
 - [Usage](#Usage)
 - [Tests-covered](#Tests-covered)
 
@@ -57,7 +58,17 @@ The following key assumptions were made while implementing the solution:
 These assumptions help simplify the implementation while ensuring the solution works efficiently under the given constraints and requirements.
 
 
+### Prerequisites
+Make sure you have the following installed:
+- **Python 3.x**: The program is written in Python, so you need to have Python installed on your system. You can download it from [here](https://www.python.org/downloads/).
+  
+
 ## Usage
+These are the files which are present in the repository-
+- `main.py`: The main script containing the program logic.
+- `sample_flow_logs.txt`: A sample flow log file used to test the program.
+- `sample_lookup.csv`: A sample lookup table with port and protocol mappings.
+  
 To run the program, follow these steps:
 
 1. **Clone the Repository**:
@@ -86,6 +97,7 @@ To run the program, follow these steps:
    The program will process the flow log and lookup table and provide the following outputs:
 
    Tag Counts: The number of times each tag from the lookup table is used.
+   
    Untagged Entries: The count of entries from the flow log that do not match any tag in the lookup table.
 
 ## Tests-covered
