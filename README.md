@@ -55,3 +55,9 @@ The following key assumptions were made while implementing the solution:
     - I assumed that the input files (`lookup_table.csv` and `flow_logs.txt`) are available at the specified paths and are accessible for reading.
 
 These assumptions help simplify the implementation while ensuring the solution works efficiently under the given constraints and requirements.
+
+
+## Tests-covered
+To thoroughly test my above solution, I designed test cases that cover a range of scenarios, including typical, edge, and erroneous cases. Below are the test categories with specific test cases to ensure the solution works correctly:
+
+1. **Basic Functional Tests**
